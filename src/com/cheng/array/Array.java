@@ -68,7 +68,7 @@ public class Array<E> {
     }
 
     /**
-     * 向数组的首个位置添加一个元素
+     * 向 Array 的首个位置添加一个元素
      *
      * @param element 添加的元素
      */
@@ -77,7 +77,7 @@ public class Array<E> {
     }
 
     /**
-     * 向数组的最后添加一个元素
+     * 向 Array 的最后添加一个元素
      *
      * @param element 添加的元素
      */
@@ -106,21 +106,21 @@ public class Array<E> {
     }
 
     /**
-     * 删除数组的首个元素
+     * 删除 Array 的首个元素
      */
     public E removeFirst() {
         return remove(0);
     }
 
     /**
-     * 删除数组的末位元素
+     * 删除 Array 的末位元素
      */
     public E removeLast() {
         return remove(size - 1);
     }
 
     /**
-     * 从数组中删除 element
+     * 从 Array 中删除 element
      *
      * @param element 删除的元素
      * @return 是否成功删除
@@ -172,7 +172,7 @@ public class Array<E> {
     }
 
     /**
-     * 获取 index 索引位置的元素
+     * 获取 index 索引的元素
      *
      * @param index 索引
      * @return 对应的元素
